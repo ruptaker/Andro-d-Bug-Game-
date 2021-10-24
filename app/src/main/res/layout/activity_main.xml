@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hm14_shrestha.MainActivity"
+    android:background="@drawable/title">>
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/play"
+        android:background="@drawable/play"
+        android:layout_marginStart="130dp"
+        android:layout_marginBottom="40dp"
+        android:layout_above="@+id/highscore"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:id="@+id/highscore"
+        android:layout_width="119dp"
+        android:layout_height="32dp"
+        android:layout_alignStart="@+id/play"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/highscore" />
+</RelativeLayout>
